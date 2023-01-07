@@ -34,11 +34,11 @@ const Async = () => {
             onChange={(e) => setName(e.target.value)}
           />
           {data && <p>{data.greeting}</p>}
-          <DeviceInformations
+          {/* <DeviceInformations
             hostname={data?.osInfo.hostname}
             cpus={data?.osInfo.cpus}
             uptime={data?.osInfo.uptime}
-          />
+          /> */}
         </form>
       </div>
 
